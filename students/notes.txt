@@ -1,0 +1,7 @@
+declare -p IFS
+
+IFS defaults to spaces, tabs, and new lines.
+
+can set IFS to IFS=","
+
+pg_dump --clean --create --inserts --username=freecodecamp students > students.sql

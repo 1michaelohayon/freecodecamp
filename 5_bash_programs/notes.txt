@@ -1,0 +1,28 @@
+help 
+help test
+help [[ expression ]]
+help [[
+help function
+help if
+help until
+help type
+
+
+echo $? //checks last command exist code or use ; for same line
+0 is true but what it means is that it had 0 errors
+[[ hello == hello ]]; echo $?
+[[ hello == world ]]; echo $?
+[[ hello =~ el ]]; echo $?
+[[ 'hello world' =~ 'lo wor' ]]; echo $?
+[[ 'hello world' =~ ^h ]]; echo $?
+[[ 'hello world' =~ ^h.+d$ ]]; echo $?
+
+
+man sleep
+
+printenv
+
+declare -p
+declare -p <LOCAL VARIABLE>
+declare -p <RANDOM>
+declare -p <ARR>
